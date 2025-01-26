@@ -1,0 +1,43 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<http://example.org/movie/Avatar> a schema:Movie ;
+    schema:director <https://schema.org/director/James_Cameron_d57688b5-681f-4b96-805f-7814899c7eeb> .
+
+<http://example.org/movie/Die_Hard> a schema:Movie ;
+    schema:director <https://schema.org/director/John_McTiernan_f922b965-4bad-4a8f-ac5c-3cf3763901ed> .
+
+<http://example.org/movie/Ghostbusters> a schema:Movie ;
+    schema:director <https://schema.org/director/Ivan_Reitman_e791cddc-806f-427d-8ed0-c80f380c9acd> .
+
+<http://example.org/movie/Ghostbusters_II> a schema:Movie ;
+    schema:character <https://schema.org/character/Peter_Venkman_d7f14257-9bdd-4a82-844d-8116461825f0> .
+
+<http://example.org/movie/The_Voyage_of_the_Dawn_Treader> a schema:Movie ;
+    schema:character <https://schema.org/character/Prince_Caspian_dfc50104-8933-47e7-af66-4cdc27c2ee82> .
+
+<http://example.org/movie/Wreck-It_Ralph> a schema:Movie ;
+    schema:director <https://schema.org/director/Andrew_Adamson_1fd0151d-081f-4707-af1c-0b470944b65a>,
+        <https://schema.org/director/Rich_Moore_36eb1137-e312-4e7e-8732-b5fec5c8e904> .
+
+<https://schema.org/character/Peter_Venkman_d7f14257-9bdd-4a82-844d-8116461825f0> rdfs:label "Peter Venkman" ;
+    schema:name "Peter Venkman" .
+
+<https://schema.org/character/Prince_Caspian_dfc50104-8933-47e7-af66-4cdc27c2ee82> rdfs:label "Prince Caspian" ;
+    schema:name "Prince Caspian" .
+
+<https://schema.org/director/Andrew_Adamson_1fd0151d-081f-4707-af1c-0b470944b65a> rdfs:label "Andrew Adamson" ;
+    schema:name "Andrew Adamson" .
+
+<https://schema.org/director/Ivan_Reitman_e791cddc-806f-427d-8ed0-c80f380c9acd> rdfs:label "Ivan Reitman" ;
+    schema:name "Ivan Reitman" .
+
+<https://schema.org/director/James_Cameron_d57688b5-681f-4b96-805f-7814899c7eeb> rdfs:label "James Cameron" ;
+    schema:name "James Cameron" .
+
+<https://schema.org/director/John_McTiernan_f922b965-4bad-4a8f-ac5c-3cf3763901ed> rdfs:label "John McTiernan" ;
+    schema:name "John McTiernan" .
+
+<https://schema.org/director/Rich_Moore_36eb1137-e312-4e7e-8732-b5fec5c8e904> rdfs:label "Rich Moore" ;
+    schema:name "Rich Moore" .
+

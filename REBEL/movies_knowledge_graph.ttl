@@ -1,0 +1,211 @@
+@prefix ex: <http://example.org/> .
+
+ex:Avatar ex:followed_by ex:2021_re-release_in_China .
+
+<http://example.org/Avengers:_Endgame> ex:followed_by <http://example.org/Spider-Man:_Far_From_Home> ;
+    ex:nominated_for ex:Best_Visual_Effects ;
+    ex:part_of_the_series ex:Infinity_Saga ;
+    ex:publication_date <http://example.org/April_22,_2019> .
+
+<http://example.org/Avengers:_Endgame_at_Disney_A_to_Z> ex:publication_date <http://example.org/December_7,_2019> .
+
+ex:Buzz ex:present_in_work ex:Toy_Story_3 .
+
+ex:Circle_of_Life ex:part_of ex:The_Lion_King .
+
+ex:Cloudy_with_a_Chance_of_Meatballs ex:followed_by ex:Zombieland .
+
+ex:Diamond_Edition ex:followed_by ex:Blu-ray .
+
+ex:Diamond_Edition_of_The_Lion_King ex:distributed_by ex:Walt_Disney_Studios_Home_Entertainment .
+
+ex:Enter_the_Matrix ex:followed_by ex:The_Matrix_Reloaded .
+
+ex:Forces_of_Nature ex:followed_by ex:10_Things_I_Hate_About_You .
+
+ex:Forrest_Gump ex:followed_by ex:True_Lies .
+
+ex:Friday ex:followed_by ex:Saturday .
+
+ex:Frozen ex:cast_member ex:Jia_Hongsheng ;
+    ex:main_subject ex:death ;
+    ex:publication_date ex:1997,
+        ex:22_February_2000 .
+
+<http://example.org/Harry_Potter_and_the_Sorcerer's_Stone> ex:followed_by <http://example.org/Philosopher's_Stone> .
+
+ex:Harry_Potter_books ex:has_part <http://example.org/Harry_Potter_and_the_Philosopher's_Stone> .
+
+<http://example.org/I_Just_Can't_Wait_to_Be_King> ex:part_of ex:The_Lion_King .
+
+ex:Illustrated_version ex:based_on <http://example.org/Harry_Potter_and_the_Philosopher's_Stone> .
+
+ex:Inception ex:after_a_work_by ex:William_Gibson ;
+    ex:award_received ex:The_Most_Influential_Visual_Effects_Films_of_All_Time ;
+    ex:based_on ex:The_Dark_Knight ;
+    ex:cast_member ex:Leonardo_DiCaprio ;
+    ex:composer ex:Hans_Zimmer ;
+    ex:country_of_origin ex:United_States ;
+    ex:director ex:Christopher_Nolan,
+        ex:Nolan ;
+    ex:distributed_by <http://example.org/Warner_Bros.> ;
+    ex:genre ex:action,
+        ex:heist_film,
+        ex:narrative_arc ;
+    ex:main_subject ex:film-making ;
+    ex:nominated_for ex:Best_Cinematography ;
+    ex:publication_date ex:2010,
+        <http://example.org/December_19,_2017>,
+        <http://example.org/July_16,_2010>,
+        <http://example.org/July_8,_2010>,
+        <http://example.org/May_10,_2010> ;
+    ex:screenwriter ex:Kristin_Thompson .
+
+ex:Independence_Day ex:followed_by ex:next_year .
+
+ex:Legacy_of_Toy_Story ex:platform ex:PlayStation_Portable .
+
+ex:Morpheus ex:present_in_work ex:The_Matrix .
+
+ex:Neo ex:present_in_work ex:The_Matrix,
+        ex:the_Matrix .
+
+ex:No_Way_Home ex:followed_by ex:The_More_Fun_Stuff_Version .
+
+ex:Rafiki ex:present_in_work ex:The_Lion_King .
+
+ex:Ralph_Breaks_the_Internet ex:country_of_origin ex:United_States ;
+    ex:director ex:Rich_Moore ;
+    ex:distributed_by ex:Disney_A_to_Z,
+        ex:Walt_Disney_Studios_Home_Entertainment ;
+    ex:follows ex:Wreck-It_Ralph,
+        ex:predecessor ;
+    ex:production_company ex:Walt_Disney_Animation_Studios ;
+    ex:publication_date <http://example.org/November_5,_2018> .
+
+ex:Simba ex:present_in_work ex:The_Lion_King .
+
+ex:Sirius_Black ex:present_in_work <http://example.org/Harry_Potter_and_the_Philosopher's_Stone> .
+
+<http://example.org/Spider-Man:_No_Way_Home> ex:distributed_by ex:Sony_Pictures_Home_Entertainment ;
+    ex:genre ex:superhero_film ;
+    ex:publication_date <http://example.org/July_24,_2026>,
+        <http://example.org/June_3,_2024> .
+
+<http://example.org/Star_Wars:_The_Force_Awakens> ex:followed_by ex:Endgame .
+
+ex:The_Art_of_the_Matrix ex:director ex:Dane_A._Davis .
+
+ex:The_Force_Awakens ex:followed_by ex:Infinity_War .
+
+ex:The_Legend_of_the_Lion_King ex:part_of ex:Disneyland_Paris .
+
+ex:The_Lion_Guard ex:follows ex:The_Lion_King .
+
+<http://example.org/The_Lion_King's_Timon_&_Pumbaa> ex:characters ex:Timon .
+
+<http://example.org/The_Lion_King_1½> ex:publication_date ex:2004 .
+
+ex:The_Lion_King_3D ex:based_on ex:The_Lion_King .
+
+ex:The_Lion_King_II ex:follows <http://example.org/Simba's_Pride> .
+
+ex:The_Lion_King_musical ex:director ex:Julie_Taymor .
+
+ex:The_Lion_King_original_motion_picture_soundtrack ex:publication_date <http://example.org/April_27,_1994> .
+
+ex:The_Matrix_Resurrections ex:director ex:Lana_Wachowski .
+
+<http://example.org/The_Matrix_Unlocked:_An_Unauthorized_Review_of_the_Matrix_Phenomenon> ex:publisher ex:Contender_Books .
+
+ex:The_Matrixial_Gaze ex:creator <http://example.org/Bracha_L.> .
+
+ex:The_Rescuers_Down_Under ex:follows ex:The_Rescuers .
+
+ex:The_Three_Musketeers ex:followed_by <http://example.org/Sister_Act_2:_Back_in_the_Habit> .
+
+ex:Tinny ex:present_in_work ex:Toy_Story .
+
+ex:Toy_Story_4 ex:publication_date <http://example.org/June_21,_2019> .
+
+ex:Tron ex:derivative_work ex:The_Matrix .
+
+ex:VHS ex:followed_by ex:DVD .
+
+ex:Woody ex:present_in_work ex:Toy_Story .
+
+ex:following_weekend ex:follows ex:Memorial_Day_weekend .
+
+ex:DVD ex:followed_by ex:Blu-ray,
+        ex:Blu-ray_disc .
+
+ex:Pixar ex:product_or_material_produced ex:Toy_Story .
+
+ex:The_Matrix_Reloaded ex:followed_by ex:The_Matrix_Revolutions .
+
+ex:Toy_Story_3 ex:publication_date <http://example.org/June_18,_2010> .
+
+ex:Endgame ex:follows ex:Infinity_War .
+
+ex:Infinity_War ex:followed_by ex:Endgame .
+
+<http://example.org/Harry_Potter_and_the_Philosopher's_Stone> ex:award_received <http://example.org/Children's_Book_of_the_Year> ;
+    ex:part_of_the_series ex:Harry_Potter_series ;
+    ex:publication_date ex:14_November_2001,
+        ex:28_June_1997,
+        ex:978-0-09-944542-5 ;
+    ex:publisher ex:Bloomsbury .
+
+ex:The_Matrix ex:after_a_work_by ex:Philip_K._Dick ;
+    ex:award_received ex:Best_Film_Editing,
+        ex:National_Film_Registry ;
+    ex:cast_member ex:Carrie-Anne_Moss ;
+    ex:composer ex:Don_Davis ;
+    ex:director ex:Chad_Stahelski,
+        ex:M._Night_Shyamalan,
+        ex:Quentin_Tarantino ;
+    ex:follows ex:Lost_in_Space ;
+    ex:genre ex:science_fiction ;
+    ex:has_part ex:The_Matrix_Was_a_Documentary ;
+    ex:instance_of ex:simulated_reality ;
+    ex:main_subject ex:gender_transition ;
+    ex:part_of_the_series ex:Matrix_film_series ;
+    ex:production_company <http://example.org/Warner_Bros.> ;
+    ex:publication_date <http://example.org/March_31,_1999>,
+        <http://example.org/September_21,_1999> .
+
+ex:Toy_Story ex:award_received ex:National_Film_Registry ;
+    ex:cast_member ex:John_Morris ;
+    ex:director ex:John_Lasseter ;
+    ex:distributed_by ex:Walt_Disney_Home_Video ;
+    ex:followed_by ex:Toy_Story_2 ;
+    ex:instance_of ex:3-D ;
+    ex:nominated_for ex:Best_Original_Screenplay ;
+    ex:production_company ex:Disney,
+        ex:Disney_Consumer_Products,
+        ex:Pixar,
+        ex:Pixar_Animation_Studios ;
+    ex:publication_date ex:1995,
+        <http://example.org/December_18,_1996>,
+        <http://example.org/November_19,_1995>,
+        <http://example.org/November_22,_1995>,
+        <http://example.org/October_2,_2009> .
+
+ex:The_Lion_King ex:award_received ex:National_Film_Registry ;
+    ex:cast_member ex:Jonathan_Taylor_Thomas,
+        ex:Matthew_Broderick,
+        ex:Robert_Guillaume ;
+    ex:composer ex:Hans_Zimmer ;
+    ex:developer ex:Westwood_Studios ;
+    ex:director ex:Don_Hahn,
+        ex:Roger_Allers ;
+    ex:distributed_by ex:Blu-ray,
+        ex:CAV ;
+    ex:genre ex:musical ;
+    ex:instance_of ex:3D ;
+    ex:part_of_the_series <http://example.org/Disney's_100th_anniversary> ;
+    ex:production_company ex:Disney ;
+    ex:publication_date ex:1994,
+        <http://example.org/January_19,_1990>,
+        <http://example.org/March_3,_1995> .
+

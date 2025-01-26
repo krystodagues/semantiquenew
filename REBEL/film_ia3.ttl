@@ -1,0 +1,52 @@
+@prefix schema: <https://schema.org/> .
+
+<http://example.org/director/Andrew_Adamson> a schema:Person ;
+    schema:identifier "8a731fa7-182d-444d-8232-7091cb89f8da" ;
+    schema:name "Andrew Adamson" .
+
+<http://example.org/director/Ivan_Reitman> a schema:Person ;
+    schema:identifier "787fcbfd-103c-4f6d-9d8e-2d91c7ce1acc" ;
+    schema:name "Ivan Reitman" .
+
+<http://example.org/director/James_Cameron> a schema:Person ;
+    schema:identifier "23f72116-fa34-4fa6-a1b2-1ba44099c639" ;
+    schema:name "James Cameron" .
+
+<http://example.org/director/John_McTiernan> a schema:Person ;
+    schema:identifier "a42a36cb-e46f-4883-883d-71aeecc2cd20" ;
+    schema:name "John McTiernan" .
+
+<http://example.org/director/Rich_Moore> a schema:Person ;
+    schema:identifier "a37b3a6c-44d2-49b6-8a8e-896171707e11" ;
+    schema:name "Rich Moore" .
+
+<http://example.org/movie/Avatar> a schema:Movie ;
+    schema:director <https://schema.org/director/James_Cameron> ;
+    schema:identifier "23f72116-fa34-4fa6-a1b2-1ba44099c639" .
+
+<http://example.org/movie/Die_Hard> a schema:Movie ;
+    schema:director <https://schema.org/director/John_McTiernan> ;
+    schema:identifier "a42a36cb-e46f-4883-883d-71aeecc2cd20" .
+
+<http://example.org/movie/Ghostbusters> a schema:Movie ;
+    schema:director <https://schema.org/director/Ivan_Reitman> ;
+    schema:identifier "787fcbfd-103c-4f6d-9d8e-2d91c7ce1acc" .
+
+<http://example.org/movie/Ghostbusters_II> schema:character <http://example.org/character/Peter_Venkman> .
+
+<http://example.org/movie/The_Voyage_of_the_Dawn_Treader> schema:character <http://example.org/character/Prince_Caspian> .
+
+<http://example.org/movie/Wreck-It_Ralph> a schema:Movie ;
+    schema:director <https://schema.org/director/Andrew_Adamson>,
+        <https://schema.org/director/Rich_Moore> ;
+    schema:identifier "8a731fa7-182d-444d-8232-7091cb89f8da",
+        "a37b3a6c-44d2-49b6-8a8e-896171707e11" .
+
+<http://example.org/character/Peter_Venkman> a schema:Character ;
+    schema:identifier "2ccaf929-523c-4c66-9141-c35c660a6185" ;
+    schema:name "Peter Venkman" .
+
+<http://example.org/character/Prince_Caspian> a schema:Character ;
+    schema:identifier "fe9b9e4b-f2c9-4ac5-9943-0f020ec9f391" ;
+    schema:name "Prince Caspian" .
+

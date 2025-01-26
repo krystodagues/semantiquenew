@@ -1,0 +1,70 @@
+@prefix ex: <http://example.org/> .
+@prefix schema: <https://schema.org/> .
+
+<http://example.org/character/Peter_Venkman> a schema:Character ;
+    ex:inFilm <http://example.org/movie/Ghostbusters_II> ;
+    schema:identifier "3638ceda-6a96-4ad3-a8f2-480091ec079e" ;
+    schema:name "Peter Venkman" .
+
+<http://example.org/character/Prince_Caspian> a schema:Character ;
+    ex:inFilm <http://example.org/movie/The_Voyage_of_the_Dawn_Treader> ;
+    schema:identifier "e73aed60-03e7-43a9-820f-9b141e66fd78" ;
+    schema:name "Prince Caspian" .
+
+<http://example.org/director/Andrew_Adamson> a schema:Person ;
+    ex:inMovie <http://example.org/movie/Wreck-It_Ralph> ;
+    schema:identifier "9757d2b8-5261-4ff3-99bb-068ae555bf73" ;
+    schema:name "Andrew Adamson" .
+
+<http://example.org/director/Ivan_Reitman> a schema:Person ;
+    ex:inMovie <http://example.org/movie/Ghostbusters> ;
+    schema:identifier "58bc84ad-e164-4591-afed-7aef03bd258b" ;
+    schema:name "Ivan Reitman" .
+
+<http://example.org/director/James_Cameron> a schema:Person ;
+    ex:inMovie <http://example.org/movie/Avatar> ;
+    schema:identifier "ca73574a-7d99-4f07-986e-dc6198ff45f5" ;
+    schema:name "James Cameron" .
+
+<http://example.org/director/John_McTiernan> a schema:Person ;
+    ex:inMovie <http://example.org/movie/Die_Hard> ;
+    schema:identifier "83c23a39-1080-4bb0-95e4-9b4058d47207" ;
+    schema:name "John McTiernan" .
+
+<http://example.org/director/Rich_Moore> a schema:Person ;
+    ex:inMovie <http://example.org/movie/Wreck-It_Ralph> ;
+    schema:identifier "210bf693-2cd6-44b2-bc33-845b6672c441" ;
+    schema:name "Rich Moore" .
+
+<http://example.org/movie/Avatar> a schema:Movie ;
+    ex:hasDirector <http://example.org/director/James_Cameron> ;
+    schema:identifier "ca73574a-7d99-4f07-986e-dc6198ff45f5" ;
+    schema:name "Avatar" .
+
+<http://example.org/movie/Die_Hard> a schema:Movie ;
+    ex:hasDirector <http://example.org/director/John_McTiernan> ;
+    schema:identifier "83c23a39-1080-4bb0-95e4-9b4058d47207" ;
+    schema:name "Die Hard" .
+
+<http://example.org/movie/Ghostbusters> a schema:Movie ;
+    ex:hasDirector <http://example.org/director/Ivan_Reitman> ;
+    schema:identifier "58bc84ad-e164-4591-afed-7aef03bd258b" ;
+    schema:name "Ghostbusters" .
+
+<http://example.org/movie/Ghostbusters_II> a schema:Movie ;
+    ex:hasCharacter <http://example.org/character/Peter_Venkman> ;
+    schema:identifier "3638ceda-6a96-4ad3-a8f2-480091ec079e" ;
+    schema:name "Ghostbusters II" .
+
+<http://example.org/movie/The_Voyage_of_the_Dawn_Treader> a schema:Movie ;
+    ex:hasCharacter <http://example.org/character/Prince_Caspian> ;
+    schema:identifier "e73aed60-03e7-43a9-820f-9b141e66fd78" ;
+    schema:name "The Voyage of the Dawn Treader" .
+
+<http://example.org/movie/Wreck-It_Ralph> a schema:Movie ;
+    ex:hasDirector <http://example.org/director/Andrew_Adamson>,
+        <http://example.org/director/Rich_Moore> ;
+    schema:identifier "210bf693-2cd6-44b2-bc33-845b6672c441",
+        "9757d2b8-5261-4ff3-99bb-068ae555bf73" ;
+    schema:name "Wreck-It Ralph" .
+

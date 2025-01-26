@@ -1,0 +1,85 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<http://example.org/movie/Avatar> a schema:Movie ;
+    schema:director <https://schema.org/director/James_Cameron> ;
+    schema:identifier <https://schema.org/identifier/aaf312fc-312e-4178-802a-e768f45737f7> .
+
+<http://example.org/movie/Die_Hard> a schema:Movie ;
+    schema:director <https://schema.org/director/John_McTiernan> ;
+    schema:identifier <https://schema.org/identifier/e8b6bfab-b34e-4d4a-9e79-2cb86e4e2b46> .
+
+<http://example.org/movie/Ghostbusters> a schema:Movie ;
+    schema:director <https://schema.org/director/Ivan_Reitman> ;
+    schema:identifier <https://schema.org/identifier/be839860-0600-4d60-9725-502780738f8c> .
+
+<http://example.org/movie/Ghostbusters_II> a schema:Movie ;
+    schema:character <https://schema.org/character/Peter_Venkman> ;
+    schema:identifier <https://schema.org/identifier/cf17ab37-c1fa-4d59-bdbf-ed0c15a535d5> .
+
+<http://example.org/movie/The_Voyage_of_the_Dawn_Treader> a schema:Movie ;
+    schema:character <https://schema.org/character/Prince_Caspian> ;
+    schema:identifier <https://schema.org/identifier/f7d46a8d-460e-4845-a61b-958a8e48f8e7> .
+
+<http://example.org/movie/Wreck-It_Ralph> a schema:Movie ;
+    schema:director <https://schema.org/director/Andrew_Adamson>,
+        <https://schema.org/director/Rich_Moore> ;
+    schema:identifier <https://schema.org/identifier/5faa2569-d57e-4d7e-963c-af73dcc98abb>,
+        <https://schema.org/identifier/b111d839-2f70-4df0-963f-8fd53a40217a> .
+
+<https://schema.org/character/Peter_Venkman> rdfs:label "Peter Venkman" ;
+    schema:identifier <https://schema.org/identifier/8f74f914-4024-4273-9bbb-4fcf4bfeb46f> ;
+    schema:name "Peter Venkman" .
+
+<https://schema.org/character/Prince_Caspian> rdfs:label "Prince Caspian" ;
+    schema:identifier <https://schema.org/identifier/2403681f-8765-4678-9d27-8b91294f5e65> ;
+    schema:name "Prince Caspian" .
+
+<https://schema.org/director/Andrew_Adamson> rdfs:label "Andrew Adamson" ;
+    schema:identifier <https://schema.org/identifier/cb15f9d5-5457-4b45-89c8-2d223e7abbb4> ;
+    schema:name "Andrew Adamson" .
+
+<https://schema.org/director/Ivan_Reitman> rdfs:label "Ivan Reitman" ;
+    schema:identifier <https://schema.org/identifier/48700378-f093-4dc6-9a3f-dcc37180be43> ;
+    schema:name "Ivan Reitman" .
+
+<https://schema.org/director/James_Cameron> rdfs:label "James Cameron" ;
+    schema:identifier <https://schema.org/identifier/e33f95d5-0c17-4ed2-ac86-c0f85d135992> ;
+    schema:name "James Cameron" .
+
+<https://schema.org/director/John_McTiernan> rdfs:label "John McTiernan" ;
+    schema:identifier <https://schema.org/identifier/0dd15a58-dda2-4312-9fea-b49436675a35> ;
+    schema:name "John McTiernan" .
+
+<https://schema.org/director/Rich_Moore> rdfs:label "Rich Moore" ;
+    schema:identifier <https://schema.org/identifier/5e2b6bfe-eaeb-40eb-820d-e6d42dfa1244> ;
+    schema:name "Rich Moore" .
+
+<https://schema.org/identifier/0dd15a58-dda2-4312-9fea-b49436675a35> rdfs:label "0dd15a58-dda2-4312-9fea-b49436675a35" .
+
+<https://schema.org/identifier/2403681f-8765-4678-9d27-8b91294f5e65> rdfs:label "2403681f-8765-4678-9d27-8b91294f5e65" .
+
+<https://schema.org/identifier/48700378-f093-4dc6-9a3f-dcc37180be43> rdfs:label "48700378-f093-4dc6-9a3f-dcc37180be43" .
+
+<https://schema.org/identifier/5e2b6bfe-eaeb-40eb-820d-e6d42dfa1244> rdfs:label "5e2b6bfe-eaeb-40eb-820d-e6d42dfa1244" .
+
+<https://schema.org/identifier/5faa2569-d57e-4d7e-963c-af73dcc98abb> rdfs:label "5faa2569-d57e-4d7e-963c-af73dcc98abb" .
+
+<https://schema.org/identifier/8f74f914-4024-4273-9bbb-4fcf4bfeb46f> rdfs:label "8f74f914-4024-4273-9bbb-4fcf4bfeb46f" .
+
+<https://schema.org/identifier/aaf312fc-312e-4178-802a-e768f45737f7> rdfs:label "aaf312fc-312e-4178-802a-e768f45737f7" .
+
+<https://schema.org/identifier/b111d839-2f70-4df0-963f-8fd53a40217a> rdfs:label "b111d839-2f70-4df0-963f-8fd53a40217a" .
+
+<https://schema.org/identifier/be839860-0600-4d60-9725-502780738f8c> rdfs:label "be839860-0600-4d60-9725-502780738f8c" .
+
+<https://schema.org/identifier/cb15f9d5-5457-4b45-89c8-2d223e7abbb4> rdfs:label "cb15f9d5-5457-4b45-89c8-2d223e7abbb4" .
+
+<https://schema.org/identifier/cf17ab37-c1fa-4d59-bdbf-ed0c15a535d5> rdfs:label "cf17ab37-c1fa-4d59-bdbf-ed0c15a535d5" .
+
+<https://schema.org/identifier/e33f95d5-0c17-4ed2-ac86-c0f85d135992> rdfs:label "e33f95d5-0c17-4ed2-ac86-c0f85d135992" .
+
+<https://schema.org/identifier/e8b6bfab-b34e-4d4a-9e79-2cb86e4e2b46> rdfs:label "e8b6bfab-b34e-4d4a-9e79-2cb86e4e2b46" .
+
+<https://schema.org/identifier/f7d46a8d-460e-4845-a61b-958a8e48f8e7> rdfs:label "f7d46a8d-460e-4845-a61b-958a8e48f8e7" .
+
